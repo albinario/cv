@@ -88,3 +88,25 @@ header {
         }
     }
 }
+
+#timeline {
+    .card {
+        background-color: #e3e3e3;
+        color: #222;
+        padding: 1rem 1rem 0 1rem;
+        margin-bottom: 1rem;
+        border: 1px solid $theme-text;
+        border-radius: 2%;
+
+        div {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 5vh;
+
+            img {
+                max-height: 100%;
+            }
+        }
+    }
+}
