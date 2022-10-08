@@ -98,11 +98,12 @@ header {
         border: 1px solid $theme-text;
         border-radius: 2%;
 
-        div {
+        a {
             display: flex;
             justify-content: space-between;
             align-items: center;
             height: 5vh;
+            color: #222;
 
             img {
                 max-height: 100%;
