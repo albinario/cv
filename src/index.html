@@ -363,331 +363,287 @@
             <div class="timeline-header">
                 <h3>Timeline</h3>
                 <div>
-                    <input id="work" type="checkbox" checked>
+                    <input id="work" type="checkbox" onClick="enableUpload('work')" checked>
                     <label for="work">Work</label>
                 </div>
                 <div>
-                    <input id="education" type="checkbox" checked>
+                    <input id="education" type="checkbox" onClick="enableUpload('education')" checked>
                     <label for="education">Education</label>
                 </div>
                 <div>
-                    <input id="project" type="checkbox" checked>
+                    <input id="project" type="checkbox" onClick="enableUpload('project')" checked>
                     <label for="project">Project</label>
-                </div>
+                </div>                
             </div>
             <div class="timeline-content">
-            <div class="card education">
-                <a href="https://medieinstitutet.se" target="_blank" class="card-header">
-                    <h4>Medieinstitutet</h4>
-                    <img src="graphics/medieinstitutet.png" alt="Medieinstitutet">
-                </a>
-                <h5>Front End Engineer</h5>
-                <h6>September 2022 - present</h6>
-                <p>description</p>
-                <p>
-                    <i class="fa-brands fa-html5" title="HTML"></i>
-                    <i class="fa-brands fa-css3" title="CSS"></i>
-                    <i class="fa-brands fa-sass" title="Sass"></i>
-                    <i class="fa-brands fa-square-js" title="JavaScript"></i>
-                    <i class="fa-brands fa-square-git" title="Git"></i>
-                </p>
-            </div>
-        
-            <div class="card work">
-                <a href="https://lagonda.se" target="_blank" class="card-header">
-                    <h4>Lagonda Webbyrå</h4>
-                    <img src="graphics/lagonda.png" alt="Lagonda Webbyrå">
-                </a>
-                <h5>Web Developer</h5>
-                <h6>January 2020 - present</h6>
-                <p>description</p>
-                <p>
-                    <i class="fa-brands fa-wordpress" title="WordPress"></i>
-                    <i class="fa-brands fa-php" title="PHP"></i>
-                    <i class="fa-brands fa-html5" title="HTML"></i>
-                    <i class="fa-brands fa-css3" title="CSS"></i>
-                    <i class="fa-solid fa-database" title="SQL"></i>
-                    <i class="fa-brands fa-square-js" title="JavaScript"></i>
-                    <i class="fa-brands fa-square-git" title="Git"></i>
-                </p>
-            </div>
-            <div class="card work">
-                <a href="https://inkermantech.com" target="_blank" class="card-header">
-                    <h4>Inkerman Technologies</h4>
-                    <img src="graphics/inkerman.png" alt="Inkerman Technologies">
-                </a>
-                <h5>Swiss Army Knife</h5>
-                <h6>January 2019 - January 2020</h6>
-                <p>description</p>
-                <p>
-                    <i class="fa-brands fa-html5" title="HTML"></i>
-                    <i class="fa-brands fa-css3" title="CSS"></i>
-                    <i class="fa-brands fa-wordpress" title="WordPress"></i>
-                    <i class="fa-brands fa-php" title="PHP"></i>
-                    <i class="fa-solid fa-database" title="SQL"></i>
-                    <i class="fa-brands fa-square-js" title="JavaScript"></i>
-                    <i class="fa-brands fa-jira" title="JIRA"></i>
-                </p>
-            </div>
-            <div class="card project">
-                <a href="https://betsgp.com" target="_blank" class="card-header">
-                    <h4>Bet Speedway GP</h4>
-                    <img src="graphics/betsgp.png" alt="Bet Speedway GP">
-                </a>
-                <h5>Founder | Creator</h5>
-                <h6>Summer 2020 - still going strong</h6>
-                <div class="screenshots">
-                    <img src="graphics/betsgp_desktop.png" alt="Bet Speedway GP desktop">
-                    <img src="graphics/betsgp_mobile.png" alt="Bet Speedway GP mobile">
-                </div>
-                <p>This fantasy Speedway Grand Prix game that I have created, practicing PHP and SQL (alongside HTML, CSS and
-                    Bootstrap). Pick three riders from each Grand Prix, and get awarded the points that they score in the
-                    competition. Anyone is welcome to join!</p>
-                <div class="card-footer">
+                <div class="card education">
+                    <a href="https://medieinstitutet.se" target="_blank" class="card-header">
+                        <h4>Medieinstitutet</h4>
+                        <img src="graphics/medieinstitutet.png" alt="Medieinstitutet">
+                    </a>
+                    <h5>Front End Engineer</h5>
+                    <h6>September 2022 - present</h6>
+                    <p>description</p>
                     <p>
+                        <i class="fa-brands fa-html5" title="HTML"></i>
+                        <i class="fa-brands fa-css3" title="CSS"></i>
+                        <i class="fa-brands fa-sass" title="Sass"></i>
+                        <i class="fa-brands fa-square-js" title="JavaScript"></i>
+                        <i class="fa-brands fa-square-git" title="Git"></i>
+                    </p>
+                </div>
+                <div class="card work">
+                    <a href="https://lagonda.se" target="_blank" class="card-header">
+                        <h4>Lagonda Webbyrå</h4>
+                        <img src="graphics/lagonda.png" alt="Lagonda Webbyrå">
+                    </a>
+                    <h5>Web Developer</h5>
+                    <h6>January 2020 - present</h6>
+                    <p>description</p>
+                    <p>
+                        <i class="fa-brands fa-wordpress" title="WordPress"></i>
+                        <i class="fa-brands fa-php" title="PHP"></i>
+                        <i class="fa-brands fa-html5" title="HTML"></i>
+                        <i class="fa-brands fa-css3" title="CSS"></i>
+                        <i class="fa-solid fa-database" title="SQL"></i>
+                        <i class="fa-brands fa-square-js" title="JavaScript"></i>
+                        <i class="fa-brands fa-square-git" title="Git"></i>
+                    </p>
+                </div>
+                <div class="card work">
+                    <a href="https://inkermantech.com" target="_blank" class="card-header">
+                        <h4>Inkerman Technologies</h4>
+                        <img src="graphics/inkerman.png" alt="Inkerman Technologies">
+                    </a>
+                    <h5>Swiss Army Knife</h5>
+                    <h6>January 2019 - January 2020</h6>
+                    <p>description</p>
+                    <p>
+                        <i class="fa-brands fa-html5" title="HTML"></i>
+                        <i class="fa-brands fa-css3" title="CSS"></i>
+                        <i class="fa-brands fa-wordpress" title="WordPress"></i>
                         <i class="fa-brands fa-php" title="PHP"></i>
                         <i class="fa-solid fa-database" title="SQL"></i>
-                        <i class="fa-brands fa-html5" title="HTML"></i>
-                        <i class="fa-brands fa-css3" title="CSS"></i>
-                        <i class="fa-brands fa-bootstrap" title="Bootstrap"></i>
-                        <i class="fa-brands fa-square-git" title="Git"></i>
-                    </p>
-                    <a href="https://github.com/albinario/" target="_blank" title="Checkout Bet Speedway GP on GitHub"><i
-                            class="fa-solid fa-arrow-right"></i> <i class="fa-brands fa-github"></i></a>
-                </div>
-            </div>
-            <div class="card project">
-                <a href="http://nhlscores.surge.sh" target="_blank" class="card-header">
-                    <h4>NHL Scores</h4>
-                    <img src="graphics/nhlscores.png" alt="NHL Scores">
-                </a>
-                <h5>Founder | Creator</h5>
-                <h6>Winter 2018 - still going strong</h6>
-                <div class="screenshots">
-                    <img src="graphics/nhlscores_desktop.png" alt="NHL Scores desktop">
-                    <img src="graphics/nhlscores_mobile.png" alt="NHL Scores mobile">
-                </div>
-                <p>Based on the open NHL API, I have built this NHL scoring application, practicing JavaScript and React.</p>
-                <div class="card-footer">
-                    <p>
-                        <i class="fa-brands fa-react" title="React"></i>
                         <i class="fa-brands fa-square-js" title="JavaScript"></i>
-                        <i class="fa-brands fa-html5" title="HTML"></i>
-                        <i class="fa-brands fa-css3" title="CSS"></i>
-                        <i class="fa-brands fa-bootstrap" title="Bootstrap"></i>
-                        <i class="fa-brands fa-square-git" title="Git"></i>
-                    </p>
-                    <a href="https://github.com/albinario/nhlscores-2.0" target="_blank"
-                        title="Checkout NHL Scores on GitHub"><i class="fa-solid fa-arrow-right"></i> <i
-                            class="fa-brands fa-github"></i></a>
-                </div>
-            </div>
-            <div class="card education">
-                <a href="https://www.codecademy.com/learn/react-101" target="_blank" class="card-header">
-                    <h4>Codecademy</h4>
-                    <img src="graphics/codecademy.png" alt="Codecademy">
-                </a>
-                <h5>ReactJS online course</h5>
-                <h6>April 2018 - July 2018</h6>
-                <p>This course taught me the fundamentals of ReactJS; JSX, class and function components, props, state,
-                    lifecycle methods and hooks.</p>
-                <p>As a final assignment, I built an application that can create playlists on your Spotify account, using
-                    Spotify's open Web API (check it out in the GitHub link below).</p>
-                <div class="card-footer">
-                    <p>
-                        <i class="fa-brands fa-react" title="React"></i>
-                        <i class="fa-brands fa-square-js" title="JavaScript"></i>
-                        <i class="fa-brands fa-square-git" title="Git"></i>
-                    </p>
-                    <a href="https://github.com/albinario/jammming" target="_blank" title="Checkout Jammming on GitHub"><i
-                            class="fa-solid fa-arrow-right"></i> <i class="fa-brands fa-github"></i></a>
-                </div>
-            </div>
-            <div class="card work">
-                <a href="https://www.djakne.se/feed/1/" target="_blank" class="card-header">
-                    <h4>Mobenga</h4>
-                    <img src="graphics/mobenga.png" alt="Mobenga">
-                </a>
-                <div>
-                    <h5>Product Owner for a tier one client</h5>
-                    <h6>December 2013 - August 2016</h6>
-                    <p>Promoted to solely take care of one of Mobenga's tier one client. Leading a team of 18 developers,
-                        located in Malmö, Sweden and in Kiev, Ukraine.</p>
-                    <p>Responsible for driving the project's Roadmap, creating Features and populating the Backlog. Working
-                        closely with the client, often on site at their offices in both London and Gibraltar.</p>
-                    <p>Bringing Features on Epic level to the development team, breaking them down all the way to User Stories
-                        in Refinements. Planning the Backlog accordingly.</p>
-                    <p>Delivering/releasing to Live Production at the end of each two week sprint, without shortcutting any
-                        steps of security/testing.</p>
-                    <p>Together we brought our mobile suite from 300.000 to 5.000.000 processed bets per month, over the course
-                        of 2,5 years.</p>
-                </div>
-                <div class="card-footer">
-                    <p>
-                        <i class="fa-solid fa-diagram-project" title="Project Management"></i>
                         <i class="fa-brands fa-jira" title="JIRA"></i>
-                        <i class="fa-solid fa-arrows-spin" title="Scrum"></i>
                     </p>
                 </div>
-            </div>
-            <div class="card work">
-                <a href="https://www.djakne.se/feed/1/" target="_blank" class="card-header">
-                    <h4>Mobenga</h4>
-                    <img src="graphics/mobenga.png" alt="Mobenga">
-                </a>
-                <div>
-                    <h5>Product Owner for five clients</h5>
-                    <h6>May 2013 - November 2013</h6>
-                    <p>Managing a team of eight developers for the account's of five clients. A focus on organising the team's
-                        workflow, whilst simultaneously taking into consideration the needs of all five clients.</p>
+                <div class="card project">
+                    <a href="https://betsgp.com" target="_blank" class="card-header">
+                        <h4>Bet Speedway GP</h4>
+                        <img src="graphics/betsgp.png" alt="Bet Speedway GP">
+                    </a>
+                    <h5>Founder | Creator</h5>
+                    <h6>Summer 2020 - still going strong</h6>
+                    <div class="screenshots">
+                        <img src="graphics/betsgp_desktop.png" alt="Bet Speedway GP desktop">
+                        <img src="graphics/betsgp_mobile.png" alt="Bet Speedway GP mobile">
+                    </div>
+                    <p>This fantasy Speedway Grand Prix game that I have created, practicing PHP and SQL (alongside HTML, CSS and
+                        Bootstrap). Pick three riders from each Grand Prix, and get awarded the points that they score in the
+                        competition. Anyone is welcome to join!</p>
+                    <div class="card-footer">
+                        <p>
+                            <i class="fa-brands fa-php" title="PHP"></i>
+                            <i class="fa-solid fa-database" title="SQL"></i>
+                            <i class="fa-brands fa-html5" title="HTML"></i>
+                            <i class="fa-brands fa-css3" title="CSS"></i>
+                            <i class="fa-brands fa-bootstrap" title="Bootstrap"></i>
+                            <i class="fa-brands fa-square-git" title="Git"></i>
+                        </p>
+                        <a href="https://github.com/albinario/" target="_blank" title="Checkout Bet Speedway GP on GitHub"><i
+                                class="fa-solid fa-arrow-right"></i> <i class="fa-brands fa-github"></i></a>
+                    </div>
                 </div>
-                <div class="card-footer">
-                    <p>
-                        <i class="fa-solid fa-diagram-project" title="Project Management"></i>
-                        <i class="fa-brands fa-jira" title="JIRA"></i>
-                        <i class="fa-solid fa-arrows-spin" title="Scrum"></i>
-                    </p>
+                <div class="card project">
+                    <a href="http://nhlscores.surge.sh" target="_blank" class="card-header">
+                        <h4>NHL Scores</h4>
+                        <img src="graphics/nhlscores.png" alt="NHL Scores">
+                    </a>
+                    <h5>Founder | Creator</h5>
+                    <h6>Winter 2018 - still going strong</h6>
+                    <div class="screenshots">
+                        <img src="graphics/nhlscores_desktop.png" alt="NHL Scores desktop">
+                        <img src="graphics/nhlscores_mobile.png" alt="NHL Scores mobile">
+                    </div>
+                    <p>Based on the open NHL API, I have built this NHL scoring application, practicing JavaScript and React.</p>
+                    <div class="card-footer">
+                        <p>
+                            <i class="fa-brands fa-react" title="React"></i>
+                            <i class="fa-brands fa-square-js" title="JavaScript"></i>
+                            <i class="fa-brands fa-html5" title="HTML"></i>
+                            <i class="fa-brands fa-css3" title="CSS"></i>
+                            <i class="fa-brands fa-bootstrap" title="Bootstrap"></i>
+                            <i class="fa-brands fa-square-git" title="Git"></i>
+                        </p>
+                        <a href="https://github.com/albinario/nhlscores-2.0" target="_blank"
+                            title="Checkout NHL Scores on GitHub"><i class="fa-solid fa-arrow-right"></i> <i
+                                class="fa-brands fa-github"></i></a>
+                    </div>
                 </div>
-            </div>
-            <div class="card work">
-                <a href="https://www.djakne.se/feed/1/" target="_blank" class="card-header">
-                    <h4>Mobenga</h4>
-                    <img src="graphics/mobenga.png" alt="Mobenga">
-                </a>
-                <div>
+                <div class="card education">
+                    <a href="https://www.codecademy.com/learn/react-101" target="_blank" class="card-header">
+                        <h4>Codecademy</h4>
+                        <img src="graphics/codecademy.png" alt="Codecademy">
+                    </a>
+                    <h5>ReactJS online course</h5>
+                    <h6>April 2018 - July 2018</h6>
+                    <p>This course taught me the fundamentals of ReactJS; JSX, class and function components, props, state,
+                        lifecycle methods and hooks.</p>
+                    <p>As a final assignment, I built an application that can create playlists on your Spotify account, using
+                        Spotify's open Web API (check it out in the GitHub link below).</p>
+                    <div class="card-footer">
+                        <p>
+                            <i class="fa-brands fa-react" title="React"></i>
+                            <i class="fa-brands fa-square-js" title="JavaScript"></i>
+                            <i class="fa-brands fa-square-git" title="Git"></i>
+                        </p>
+                        <a href="https://github.com/albinario/jammming" target="_blank" title="Checkout Jammming on GitHub"><i
+                                class="fa-solid fa-arrow-right"></i> <i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="card work">
+                    <a href="https://www.djakne.se/feed/1/" target="_blank" class="card-header">
+                        <h4>Mobenga</h4>
+                        <img src="graphics/mobenga.png" alt="Mobenga">
+                    </a>
+                    <div>
+                        <h5>Product Owner for a tier one client</h5>
+                        <h6>December 2013 - August 2016</h6>
+                        <p>Promoted to solely take care of one of Mobenga's tier one client. Leading a team of 18 developers,
+                            located in Malmö, Sweden and in Kiev, Ukraine.</p>
+                        <p>Responsible for driving the project's Roadmap, creating Features and populating the Backlog. Working
+                            closely with the client, often on site at their offices in both London and Gibraltar.</p>
+                        <p>Bringing Features on Epic level to the development team, breaking them down all the way to User Stories
+                            in Refinements. Planning the Backlog accordingly.</p>
+                        <p>Delivering/releasing to Live Production at the end of each two week sprint, without shortcutting any
+                            steps of security/testing.</p>
+                        <p>Together we brought our mobile suite from 300.000 to 5.000.000 processed bets per month, over the course
+                            of 2,5 years.</p>
+                    </div>
+                    <div class="card-footer">
+                        <p>
+                            <i class="fa-solid fa-diagram-project" title="Project Management"></i>
+                            <i class="fa-brands fa-jira" title="JIRA"></i>
+                            <i class="fa-solid fa-arrows-spin" title="Scrum"></i>
+                        </p>
+                    </div>
+                </div>
+                <div class="card work">
+                    <a href="https://www.djakne.se/feed/1/" target="_blank" class="card-header">
+                        <h4>Mobenga</h4>
+                        <img src="graphics/mobenga.png" alt="Mobenga">
+                    </a>
+                    <div>
+                        <h5>Product Owner for five clients</h5>
+                        <h6>May 2013 - November 2013</h6>
+                        <p>Managing a team of eight developers for the account's of five clients. A focus on organising the team's
+                            workflow, whilst simultaneously taking into consideration the needs of all five clients.</p>
+                    </div>
+                    <div class="card-footer">
+                        <p>
+                            <i class="fa-solid fa-diagram-project" title="Project Management"></i>
+                            <i class="fa-brands fa-jira" title="JIRA"></i>
+                            <i class="fa-solid fa-arrows-spin" title="Scrum"></i>
+                        </p>
+                    </div>
+                </div>
+                <div class="card work">
+                    <a href="https://www.djakne.se/feed/1/" target="_blank" class="card-header">
+                        <h4>Mobenga</h4>
+                        <img src="graphics/mobenga.png" alt="Mobenga">
+                    </a>
+                    <div>
+                        <h5>Account Manager</h5>
+                        <h6>November 2011 - May 2013</h6>
+                        <p>In charge of creating a B2B support channel. Setting up tools, communication channels, reports and
+                            documentation.</p>
+                    </div>
+                    <div class="card-footer">
+                        <p>
+                            <i class="fa-solid fa-diagram-project" title="Project Management"></i>
+                            <i class="fa-brands fa-jira" title="JIRA"></i>
+                            <i class="fa-solid fa-arrows-spin" title="Scrum"></i>
+                        </p>
+                    </div>
+                </div>
+                <div class="card work">
+                    <a href="https://www.betsson.com" target="_blank" class="card-header">
+                        <h4>Betsson</h4>
+                        <img src="graphics/betsson.png" alt="Betsson">
+                    </a>
                     <h5>Account Manager</h5>
-                    <h6>November 2011 - May 2013</h6>
-                    <p>In charge of creating a B2B support channel. Setting up tools, communication channels, reports and
-                        documentation.</p>
+                    <h6>July 2011 - October 2011</h6>
+                    <p>Project Manager/Campaign Coordinator for all Betsafe branded campaigns. Involved in all steps of the
+                        campaigns, from creating concepts to post evaluation.</p>
+                    <div class="card-footer">
+                        <p>
+                            <i class="fa-solid fa-diagram-project" title="Project Management"></i>
+                            <i class="fa-brands fa-html5" title="HTML"></i>
+                            <i class="fa-brands fa-css3" title="CSS"></i>
+                        </p>
+                    </div>
                 </div>
-                <div class="card-footer">
-                    <p>
-                        <i class="fa-solid fa-diagram-project" title="Project Management"></i>
-                        <i class="fa-brands fa-jira" title="JIRA"></i>
-                        <i class="fa-solid fa-arrows-spin" title="Scrum"></i>
-                    </p>
+                <div class="card work">
+                    <a href="https://www.betsson.com" target="_blank" class="card-header">
+                        <h4>Betsafe</h4>
+                        <img src="graphics/betsafe.png" alt="Betsafe">
+                    </a>
+                    <h5>Content Manager</h5>
+                    <h6>June 2009 - July 2011</h6>
+                    <p>Responsible for all content on the Betsafe website, including eight different languages and markets.
+                        Translations, front end editing and publishing across the site.</p>
+                    <div class="card-footer">
+                        <p>
+                            <i class="fa-brands fa-html5" title="HTML"></i>
+                            <i class="fa-brands fa-css3" title="CSS"></i>
+                            <i class="fa-solid fa-diagram-project" title="Project Management"></i>
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <div class="card work">
-                <a href="https://www.betsson.com" target="_blank" class="card-header">
-                    <h4>Betsson</h4>
-                    <img src="graphics/betsson.png" alt="Betsson">
-                </a>
-                <h5>Account Manager</h5>
-                <h6>July 2011 - October 2011</h6>
-                <p>Project Manager/Campaign Coordinator for all Betsafe branded campaigns. Involved in all steps of the
-                    campaigns, from creating concepts to post evaluation.</p>
-                <div class="card-footer">
-                    <p>
-                        <i class="fa-solid fa-diagram-project" title="Project Management"></i>
-                        <i class="fa-brands fa-html5" title="HTML"></i>
-                        <i class="fa-brands fa-css3" title="CSS"></i>
-                    </p>
+                <div class="card education">
+                    <a href="https://mau.se" target="_blank" class="card-header">
+                        <h4>Malmö University<span>Technology & Society</span></h4>
+                        <img src="graphics/mau.png" alt="Malmö University">
+                    </a>
+                    <h5>BA (Hons), Media Production Management</h5>
+                    <h6>August 2006 - June 2009</h6>
+                    <p>Malmö, Sweden</p>
+                    <div class="card-footer">
+                        <p>
+                            <i class="fa-solid fa-diagram-project" title="Project Management"></i>
+                            <i class="fa-brands fa-html5" title="HTML"></i>
+                            <i class="fa-brands fa-css3" title="CSS"></i>
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <div class="card work">
-                <a href="https://www.betsson.com" target="_blank" class="card-header">
-                    <h4>Betsafe</h4>
-                    <img src="graphics/betsafe.png" alt="Betsafe">
-                </a>
-                <h5>Content Manager</h5>
-                <h6>June 2009 - July 2011</h6>
-                <p>Responsible for all content on the Betsafe website, including eight different languages and markets.
-                    Translations, front end editing and publishing across the site.</p>
-                <div class="card-footer">
-                    <p>
-                        <i class="fa-brands fa-html5" title="HTML"></i>
-                        <i class="fa-brands fa-css3" title="CSS"></i>
-                        <i class="fa-solid fa-diagram-project" title="Project Management"></i>
-                    </p>
+                <div class="card education">
+                    <a href="https://qut.edu.au" target="_blank" class="card-header">
+                        <h4>Queensland University of Technology</h4>
+                        <img src="graphics/qut.png" alt="Queensland University of Technology">
+                    </a>
+                    <h5>Media Production Management</h5>
+                    <h6>July 2007 - June 2008</h6>
+                    <p>Brisbane, Australia</p>
+                    <div class="card-footer">
+                        <p>
+                            <i class="fa-solid fa-diagram-project" title="Project Management"></i>
+                            <i class="fa-brands fa-html5" title="HTML"></i>
+                            <i class="fa-brands fa-css3" title="CSS"></i>
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <div class="card education">
-                <a href="https://mau.se" target="_blank" class="card-header">
-                    <h4>Malmö University<span>Technology & Society</span></h4>
-                    <img src="graphics/mau.png" alt="Malmö University">
-                </a>
-                <h5>BA (Hons), Media Production Management</h5>
-                <h6>August 2006 - June 2009</h6>
-                <p>Malmö, Sweden</p>
-                <div class="card-footer">
-                    <p>
-                        <i class="fa-solid fa-diagram-project" title="Project Management"></i>
-                        <i class="fa-brands fa-html5" title="HTML"></i>
-                        <i class="fa-brands fa-css3" title="CSS"></i>
-                    </p>
-                </div>
-            </div>
-            <div class="card education">
-                <a href="https://qut.edu.au" target="_blank" class="card-header">
-                    <h4>Queensland University of Technology</h4>
-                    <img src="graphics/qut.png" alt="Queensland University of Technology">
-                </a>
-                <h5>Media Production Management</h5>
-                <h6>July 2007 - June 2008</h6>
-                <p>Brisbane, Australia</p>
-                <div class="card-footer">
-                    <p>
-                        <i class="fa-solid fa-diagram-project" title="Project Management"></i>
-                        <i class="fa-brands fa-html5" title="HTML"></i>
-                        <i class="fa-brands fa-css3" title="CSS"></i>
-                    </p>
+                <div class="card education">
+                    <a href="https://mau.se" target="_blank" class="card-header">
+                        <h4>Malmö University<span>K3</span></h4>
+                        <img src="graphics/mau.png" alt="Malmö University">
+                    </a>
+                    <h5>Media & Communication</h5>
+                    <h6>January 2006 - June 2006</h6>
+                    <p>Malmö, Sweden</p>
                 </div>
             </div>
-            <div class="card education">
-                <a href="https://mau.se" target="_blank" class="card-header">
-                    <h4>Malmö University<span>K3</span></h4>
-                    <img src="graphics/mau.png" alt="Malmö University">
-                </a>
-                <h5>Media & Communication</h5>
-                <h6>January 2006 - June 2006</h6>
-                <p>Malmö, Sweden</p>
-            </div>
-        </div>
         </section>
-
-<!-- 
-        <input type="checkbox" id="expand-toggle" />
-        <div class="expandable">why is this one not working?</div>
-        <table>
-            <thead class="expandable">
-                <tr class="expandable">
-                    <th>Column #1</th>
-                    <th>Column #2</th>
-                    <th>Column #3</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr class="expandable">
-                    <td>[more text]</td>
-                    <td>[more text]</td>
-                    <td>[more text]</td>
-                </tr>
-                <tr>
-                    <td>[cell text]</td>
-                    <td>[cell text]</td>
-                    <td>[cell text]</td>
-                </tr>
-                <tr>
-                    <td>[cell text]</td>
-                    <td>[cell text]</td>
-                    <td>[cell text]</td>
-                </tr>
-                <tr class="expandable">
-                    <td>[more text]</td>
-                    <td>[more text]</td>
-                    <td>[more text]</td>
-                </tr>
-                <tr class="expandable">
-                    <td>[more text]</td>
-                    <td>[more text]</td>
-                    <td>[more text]</td>
-                </tr>
-            </tbody>
-        </table>
-        <label for="expand-toggle" id="expand-btn">Toggle hidden rows</label> -->
-
-
     </main>
     <footer>
         <div>Created, designed and developed by Albin.</div>
@@ -700,6 +656,20 @@
         menuBtn.addEventListener('click', () => {
             menuBtn.classList.toggle('menu-open');
         });
+
+        function enableUpload(type) {
+            const checkBox = document.getElementById(type);
+            const boxes = document.querySelectorAll('.'+type);
+            if (checkBox.checked === true) {
+                for (const box of boxes) {
+                    box.classList.remove('hide');
+                }
+            } else {
+                for (const box of boxes) {
+                    box.classList.add('hide');
+                }
+            }
+        }
     </script>
 </body>
 </html>
