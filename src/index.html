@@ -9,8 +9,8 @@
 
     <meta property="og:title" content="Albin Lindeborgs CV">
     <meta property="og:type" content="website">
-    <meta property="og:url" content=""> <!-- add netlify url-->
-    <meta property="og:image" content=""> <!-- add the final image-->
+    <meta property="og:url" content="https://albinlindeborg.surge.sh/">
+    <meta property="og:image" content="graphics/albin_2020.jpg">
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -26,326 +26,357 @@
 </head>
 <body>
     <header>
-        <h1><span>Hi, I'm</span>Albin Lindeborg</h1>
-        <div>
+        <nav>
+            <h1><span>Hi, I'm</span>Albin Lindeborg</h1>
+            <div class="menu-wrapper">
+                <button id="menu-button" aria-label="Hamburger"><i class="fa fa-bars fa-lg" aria-hidden="true"></i></button>
+                <ul class="menu">
+                    <li><i class="fa-solid fa-arrow-right"></i> <a href="#about">About</a></li>
+                    <li><i class="fa-solid fa-arrow-right"></i> <a href="#contact"> Contact</a></li>
+                    <li><i class="fa-solid fa-arrow-right"></i> <a href="#skills">Skills</a></li>
+                    <li><i class="fa-solid fa-arrow-right"></i><a href="#timeline">Timeline</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="info-wrapper">
             <img src="graphics/albin_2020.jpg" alt="Albin Lindeborg">
             <ul>
-                <li><i class="fa-solid fa-power-off"></i> 3<sup>rd</sup> October, 1981</li>
-                <li><i class="fa-solid fa-location-dot"></i> Malmö, Sweden</li>
-                <li><a href="mailto:albin.lindeborg@gmail.com?subject=Hi Albin 👋"><i class="fa-solid fa-envelope"></i> albin.lindeborg@gmail.com</a> <i class="fa-solid fa-arrow-left"></i></li>
-                <li><a href="tel:+46739244208"><i class="fa-solid fa-phone"></i> +46739244208</a> <i class="fa-solid fa-arrow-left"></i></li>
-                <li><a href="https://www.linkedin.com/in/albinlindeborg/" target="_blank" aria-label="Linked in"><i class="fa-brands fa-linkedin"></i> albinlindeborg</a> <i class="fa-solid fa-arrow-left"></i></li>
-                <li><a href="https://github.com/albinario" target="_blank" aria-label="Github"><i class="fa-brands fa-github"></i> albinario</a> <i class="fa-solid fa-arrow-left"></i></li>
+                <li><span><i class="fa-solid fa-location-dot"></i> Malmö, Sweden</span></li>
+                <li><span><i class="fa-solid fa-power-off"></i> 3<sup>rd</sup> October, 1981</span></li>
+                <li class="email"><a href="mailto:albin.lindeborg@gmail.com?subject=Hi Albin 👋"><i class="fa-solid fa-envelope"></i> albin.lindeborg@gmail.com</a><i class="fa-solid fa-arrow-left"></i></li>
+                <li><a href="tel:+46739244208"><i class="fa-solid fa-phone"></i> +46739244208</a><i class="fa-solid fa-arrow-left"></i></li>
+                <li><a href="https://www.linkedin.com/in/albinlindeborg/" target="_blank" aria-label="Linked in"><i class="fa-brands fa-linkedin"></i> albinlindeborg</a><i class="fa-solid fa-arrow-left"></i></li>
+                <li><a href="https://github.com/albinario" target="_blank" aria-label="Github"><i class="fa-brands fa-github"></i> albinario</a><i class="fa-solid fa-arrow-left"></i></li>
             </ul>
         </div>
         <h2>Product Owner | Project Manager | About to become a Front End Engineer</h2>
-    </header>
-    <main>
-        <section id="about">
-            <p>After a decade of managing projects within the IT industry, backed up by a Media Production Management university program, I have decided to change course in life.</p>
-            <p>I have realized that I feel good when I code, the code makes sense to me. I want to get closer to the code. This is the reason why I decided to join Medieinstitutet's Front End Engineering program. And here we are.</p>
-        </section>
-        <section id="contact">
-            <a href="mailto:albin.lindeborg@gmail.com?subject=Hi Albin 👋">
-                <button aria-label="Contact me"><i class="fa-solid fa-arrow-right"></i> Let's create something together</button>
-            </a>
-        </section>
-        <section id="skills">
-            <ul>
-                <li>
-                    <div>
-                        <img src="graphics/se.png" alt="Swedish flag">Swedish language
-                    </div>
-                    <span>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                    </span>
-                </li>
-                <li>
-                    <div>
-                        <img src="graphics/uk.png" alt="British flag">English language
-                    </div>
-                    <span>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                    </span>
-                </li>
-                <li>
-                    <div>
-                        <img src="graphics/es.png" alt="Spanish flag">Spanish language
-                    </div>
-                    <span>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-regular fa-circle"></i>
-                        <i class="fa-regular fa-circle"></i>
-                        <i class="fa-regular fa-circle"></i>
-                        <i class="fa-regular fa-circle"></i>
-                        <i class="fa-regular fa-circle"></i>
-                        <i class="fa-regular fa-circle"></i>
-                    </span>
-                </li>
-                <li>
-                    <div>
-                        <i class="fa-brands fa-html5"></i>HTML
-                    </div>
-                    <span>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-regular fa-circle"></i>
-                    </span>
-                </li>
-                <li>
-                    <div>
-                        <i class="fa-brands fa-css3"></i>CSS
-                    </div>
-                    <span>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-regular fa-circle"></i>
-                        <i class="fa-regular fa-circle"></i>
-                    </span>
-                </li>
-                <li>
-                    <div>
-                        <i class="fa-brands fa-sass"></i>Sass
-                    </div>
-                    <span>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-regular fa-circle"></i>
-                        <i class="fa-regular fa-circle"></i>
-                        <i class="fa-regular fa-circle"></i>
-                        <i class="fa-regular fa-circle"></i>
-                        <i class="fa-regular fa-circle"></i>
-                    </span>
-                </li>
-                <li>
-                    <div>
-                        <i class="fa-brands fa-bootstrap"></i>Bootstrap
-                    </div>
-                    <span>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-regular fa-circle"></i>
-                        <i class="fa-regular fa-circle"></i>
-                    </span>
-                </li>
-                <li>
-                    <div>
-                        <i class="fa-brands fa-php"></i>PHP
-                    </div>
-                    <span>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-regular fa-circle"></i>
-                        <i class="fa-regular fa-circle"></i>
-                    </span>
-                </li>
-                <li>
-                    <div>
-                        <i class="fa-solid fa-database"></i>SQL
-                    </div>
-                    <span>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-regular fa-circle"></i>
-                        <i class="fa-regular fa-circle"></i>
-                    </span>
-                </li>
-                <li>
-                    <div>
-                        <i class="fa-brands fa-square-js"></i>JavaScript
-                    </div>
-                    <span>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-regular fa-circle"></i>
-                        <i class="fa-regular fa-circle"></i>
-                        <i class="fa-regular fa-circle"></i>
-                        <i class="fa-regular fa-circle"></i>
-                        <i class="fa-regular fa-circle"></i>
-                    </span>
-                </li>
-                <li>
-                    <div>
-                        <i class="fa-brands fa-react"></i>React
-                    </div>
-                    <span>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-regular fa-circle"></i>
-                        <i class="fa-regular fa-circle"></i>
-                        <i class="fa-regular fa-circle"></i>
-                        <i class="fa-regular fa-circle"></i>
-                        <i class="fa-regular fa-circle"></i>
-                    </span>
-                </li>
-                <li>
-                    <div>
-                        <i class="fa-brands fa-square-git"></i>Git
-                    </div>
-                    <span>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-regular fa-circle"></i>
-                        <i class="fa-regular fa-circle"></i>
-                    </span>
-                </li>
-                <li>
-                    <div>
-                        <i class="fa-brands fa-wordpress"></i>WordPress
-                    </div>
-                    <span>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-regular fa-circle"></i>
-                    </span>
-                </li>
-                <li>
-                    <div>
-                        <i class="fa-solid fa-diagram-project"></i>Project Management
-                    </div>
-                    <span>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                    </span>
-                </li>
-                <li>
-                    <div>
-                        <i class="fa-brands fa-jira"></i>JIRA
-                    </div>
-                    <span>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                    </span>
-                </li>
-                <li>
-                    <div>
-                        <i class="fa-solid fa-arrows-spin"></i>Scrum
-                    </div>
-                    <span>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-regular fa-circle"></i>
-                        <i class="fa-regular fa-circle"></i>
-                    </span>
-                </li>
-                <li>
-                    <div>
-                        <i class="fa-solid fa-chess"></i><a href="https://www.chess.com/member/albinladin">Chess</a>
-                    </div>
-                    <span>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-solid fa-circle"></i>
-                        <i class="fa-regular fa-circle"></i>
-                        <i class="fa-regular fa-circle"></i>
-                        <i class="fa-regular fa-circle"></i>
-                        <i class="fa-regular fa-circle"></i>
-                    </span>
-                </li>
-            </ul>
-        </section>
+        <div class="wrapper">
+            <div class="about-wrapper">
+                <section id="about">
+                    <p>After a decade of managing projects within the IT industry, backed up by a Media Production Management university program, I have decided to change course in life.</p>
+                    <p>Leaving all kind of security behind, I packed my bag and guitar and moved to Spain, in order to learn an instrument properly, and a new language. The four most interesting years of my life showed my both lightness and darkness, and a bunch of concert stages around Ireland.</p>
+                    <p>I have realized that I feel good when I code, the code makes sense to me. I want to get closer to the code. This is the reason why I decided to join Medieinstitutet's Front End Engineering program. And here we are.</p>
+                </section>
+                <section id="contact">
+                    <a href="mailto:albin.lindeborg@gmail.com?subject=Hi Albin 👋">
+                        <button aria-label="Contact me"><i class="fa-solid fa-arrow-right"></i> I would love to hear from you</button>
+                    </a>
+                </section>
+            </div>
+            <section id="skills">
+                <ul>
+                    <li>
+                        <div>
+                            <img src="graphics/se.png" alt="Swedish flag">Swedish<!--language-->
+                        </div>
+                        <span>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                        </span>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="graphics/uk.png" alt="British flag">English<!--language-->
+                        </div>
+                        <span>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                        </span>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="graphics/es.png" alt="Spanish flag">Spanish<!--language-->
+                        </div>
+                        <span>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-regular fa-circle"></i>
+                            <i class="fa-regular fa-circle"></i>
+                            <i class="fa-regular fa-circle"></i>
+                            <i class="fa-regular fa-circle"></i>
+                            <i class="fa-regular fa-circle"></i>
+                            <i class="fa-regular fa-circle"></i>
+                        </span>
+                    </li>
+                    <li>
+                        <div>
+                            <i class="fa-brands fa-html5"></i>HTML
+                        </div>
+                        <span>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-regular fa-circle"></i>
+                        </span>
+                    </li>
+                    <li>
+                        <div>
+                            <i class="fa-brands fa-css3"></i>CSS
+                        </div>
+                        <span>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-regular fa-circle"></i>
+                            <i class="fa-regular fa-circle"></i>
+                        </span>
+                    </li>
+                    <li>
+                        <div>
+                            <i class="fa-brands fa-sass"></i>Sass
+                        </div>
+                        <span>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-regular fa-circle"></i>
+                            <i class="fa-regular fa-circle"></i>
+                            <i class="fa-regular fa-circle"></i>
+                            <i class="fa-regular fa-circle"></i>
+                            <i class="fa-regular fa-circle"></i>
+                        </span>
+                    </li>
+                    <li>
+                        <div>
+                            <i class="fa-brands fa-bootstrap"></i>Bootstrap
+                        </div>
+                        <span>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-regular fa-circle"></i>
+                            <i class="fa-regular fa-circle"></i>
+                        </span>
+                    </li>
+                    <li>
+                        <div>
+                            <i class="fa-brands fa-php"></i>PHP
+                        </div>
+                        <span>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-regular fa-circle"></i>
+                            <i class="fa-regular fa-circle"></i>
+                        </span>
+                    </li>
+                    <li>
+                        <div>
+                            <i class="fa-solid fa-database"></i>SQL
+                        </div>
+                        <span>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-regular fa-circle"></i>
+                            <i class="fa-regular fa-circle"></i>
+                        </span>
+                    </li>
+                    <li>
+                        <div>
+                            <i class="fa-brands fa-square-js"></i>JavaScript
+                        </div>
+                        <span>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-regular fa-circle"></i>
+                            <i class="fa-regular fa-circle"></i>
+                            <i class="fa-regular fa-circle"></i>
+                            <i class="fa-regular fa-circle"></i>
+                            <i class="fa-regular fa-circle"></i>
+                        </span>
+                    </li>
+                    <li>
+                        <div>
+                            <i class="fa-brands fa-react"></i>React
+                        </div>
+                        <span>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-regular fa-circle"></i>
+                            <i class="fa-regular fa-circle"></i>
+                            <i class="fa-regular fa-circle"></i>
+                            <i class="fa-regular fa-circle"></i>
+                            <i class="fa-regular fa-circle"></i>
+                        </span>
+                    </li>
+                    <li>
+                        <div>
+                            <i class="fa-brands fa-square-git"></i>Git
+                        </div>
+                        <span>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-regular fa-circle"></i>
+                            <i class="fa-regular fa-circle"></i>
+                        </span>
+                    </li>
+                    <li>
+                        <div>
+                            <i class="fa-brands fa-wordpress"></i>WordPress
+                        </div>
+                        <span>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-regular fa-circle"></i>
+                        </span>
+                    </li>
+                    <li>
+                        <div>
+                            <i class="fa-solid fa-diagram-project"></i>Project Management
+                        </div>
+                        <span>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                        </span>
+                    </li>
+                    <li>
+                        <div>
+                            <i class="fa-brands fa-jira"></i>JIRA
+                        </div>
+                        <span>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                        </span>
+                    </li>
+                    <li>
+                        <div>
+                            <i class="fa-solid fa-arrows-spin"></i>Scrum
+                        </div>
+                        <span>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-regular fa-circle"></i>
+                            <i class="fa-regular fa-circle"></i>
+                        </span>
+                    </li>
+                    <li>
+                        <div>
+                            <i class="fa-solid fa-chess"></i><a href="https://www.chess.com/member/albinladin">Chess</a>
+                        </div>
+                        <span>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-solid fa-circle"></i>
+                            <i class="fa-regular fa-circle"></i>
+                            <i class="fa-regular fa-circle"></i>
+                            <i class="fa-regular fa-circle"></i>
+                            <i class="fa-regular fa-circle"></i>
+                        </span>
+                    </li>
+                </ul>
+            </section>
+        </div>
         <section id="timeline">
-            <h3>Timeline</h4>
-            <div class="card">
+            <div class="timeline-header">
+                <h3>Timeline</h3>
+                <div>
+                    <input id="work" type="checkbox" checked>
+                    <label for="work">Work</label>
+                </div>
+                <div>
+                    <input id="education" type="checkbox" checked>
+                    <label for="education">Education</label>
+                </div>
+                <div>
+                    <input id="project" type="checkbox" checked>
+                    <label for="project">Project</label>
+                </div>
+            </div>
+            <div class="timeline-content">
+            <div class="card education">
                 <a href="https://medieinstitutet.se" target="_blank" class="card-header">
                     <h4>Medieinstitutet</h4>
                     <img src="graphics/medieinstitutet.png" alt="Medieinstitutet">
@@ -361,7 +392,8 @@
                     <i class="fa-brands fa-square-git" title="Git"></i>
                 </p>
             </div>
-            <div class="card">
+        
+            <div class="card work">
                 <a href="https://lagonda.se" target="_blank" class="card-header">
                     <h4>Lagonda Webbyrå</h4>
                     <img src="graphics/lagonda.png" alt="Lagonda Webbyrå">
@@ -379,7 +411,7 @@
                     <i class="fa-brands fa-square-git" title="Git"></i>
                 </p>
             </div>
-            <div class="card">
+            <div class="card work">
                 <a href="https://inkermantech.com" target="_blank" class="card-header">
                     <h4>Inkerman Technologies</h4>
                     <img src="graphics/inkerman.png" alt="Inkerman Technologies">
@@ -397,7 +429,7 @@
                     <i class="fa-brands fa-jira" title="JIRA"></i>
                 </p>
             </div>
-            <div class="card">
+            <div class="card project">
                 <a href="https://betsgp.com" target="_blank" class="card-header">
                     <h4>Bet Speedway GP</h4>
                     <img src="graphics/betsgp.png" alt="Bet Speedway GP">
@@ -408,7 +440,9 @@
                     <img src="graphics/betsgp_desktop.png" alt="Bet Speedway GP desktop">
                     <img src="graphics/betsgp_mobile.png" alt="Bet Speedway GP mobile">
                 </div>
-                <p>This fantasy Speedway Grand Prix game that I have created, practicing PHP and SQL (alongside HTML, CSS and Bootstrap). Pick three riders from each Grand Prix, and get awarded the points that they score in the competition. Anyone is welcome to join!</p>
+                <p>This fantasy Speedway Grand Prix game that I have created, practicing PHP and SQL (alongside HTML, CSS and
+                    Bootstrap). Pick three riders from each Grand Prix, and get awarded the points that they score in the
+                    competition. Anyone is welcome to join!</p>
                 <div class="card-footer">
                     <p>
                         <i class="fa-brands fa-php" title="PHP"></i>
@@ -418,10 +452,11 @@
                         <i class="fa-brands fa-bootstrap" title="Bootstrap"></i>
                         <i class="fa-brands fa-square-git" title="Git"></i>
                     </p>
-                    <a href="https://github.com/albinario/" target="_blank" title="Checkout Bet Speedway GP on GitHub"><i class="fa-solid fa-arrow-right"></i> <i class="fa-brands fa-github"></i></a>
+                    <a href="https://github.com/albinario/" target="_blank" title="Checkout Bet Speedway GP on GitHub"><i
+                            class="fa-solid fa-arrow-right"></i> <i class="fa-brands fa-github"></i></a>
                 </div>
             </div>
-            <div class="card">
+            <div class="card project">
                 <a href="http://nhlscores.surge.sh" target="_blank" class="card-header">
                     <h4>NHL Scores</h4>
                     <img src="graphics/nhlscores.png" alt="NHL Scores">
@@ -442,28 +477,33 @@
                         <i class="fa-brands fa-bootstrap" title="Bootstrap"></i>
                         <i class="fa-brands fa-square-git" title="Git"></i>
                     </p>
-                    <a href="https://github.com/albinario/nhlscores-2.0" target="_blank" title="Checkout NHL Scores on GitHub"><i class="fa-solid fa-arrow-right"></i> <i class="fa-brands fa-github"></i></a>
+                    <a href="https://github.com/albinario/nhlscores-2.0" target="_blank"
+                        title="Checkout NHL Scores on GitHub"><i class="fa-solid fa-arrow-right"></i> <i
+                            class="fa-brands fa-github"></i></a>
                 </div>
             </div>
-            <div class="card">
+            <div class="card education">
                 <a href="https://www.codecademy.com/learn/react-101" target="_blank" class="card-header">
                     <h4>Codecademy</h4>
                     <img src="graphics/codecademy.png" alt="Codecademy">
                 </a>
                 <h5>ReactJS online course</h5>
                 <h6>April 2018 - July 2018</h6>
-                <p>This course taught me the fundamentals of ReactJS; JSX, class and function components, props, state, lifecycle methods and hooks.</p>
-                <p>As a final assignment, I built an application that can create playlists on your Spotify account, using Spotify's open Web API (check it out in the GitHub link below).</p>
+                <p>This course taught me the fundamentals of ReactJS; JSX, class and function components, props, state,
+                    lifecycle methods and hooks.</p>
+                <p>As a final assignment, I built an application that can create playlists on your Spotify account, using
+                    Spotify's open Web API (check it out in the GitHub link below).</p>
                 <div class="card-footer">
                     <p>
                         <i class="fa-brands fa-react" title="React"></i>
                         <i class="fa-brands fa-square-js" title="JavaScript"></i>
                         <i class="fa-brands fa-square-git" title="Git"></i>
                     </p>
-                    <a href="https://github.com/albinario/jammming" target="_blank" title="Checkout Jammming on GitHub"><i class="fa-solid fa-arrow-right"></i> <i class="fa-brands fa-github"></i></a>
+                    <a href="https://github.com/albinario/jammming" target="_blank" title="Checkout Jammming on GitHub"><i
+                            class="fa-solid fa-arrow-right"></i> <i class="fa-brands fa-github"></i></a>
                 </div>
             </div>
-            <div class="card">
+            <div class="card work">
                 <a href="https://www.djakne.se/feed/1/" target="_blank" class="card-header">
                     <h4>Mobenga</h4>
                     <img src="graphics/mobenga.png" alt="Mobenga">
@@ -471,23 +511,16 @@
                 <div>
                     <h5>Product Owner for a tier one client</h5>
                     <h6>December 2013 - August 2016</h6>
-                    <p>Promoted to solely take care of one of Mobenga's tier one client. Leading a team of 18 developers, located in Malmö, Sweden and in Kiev, Ukraine.</p>
-                    <p>Responsible for driving the project's Roadmap, creating Features and populating the Backlog. Working closely with the client, often on site at their offices in both London and Gibraltar.</p>
-                    <p>Bringing Features on Epic level to the development team, breaking them down all the way to User Stories in Refinements. Planning the Backlog accordingly.</p>
-                    <p>Delivering/releasing to Live Production at the end of each two week sprint, without shortcutting any steps of security/testing.</p>
-                    <p>Together we brought our mobile suite from 300.000 to 5.000.000 processed bets per month, over the course of 2,5 years.</p>
-                </div>
-                <hr>
-                <div>
-                    <h4>Product Owner for five clients</h4>
-                    <h6>May 2013 - November 2013</h6>
-                    <p>Managing a team of eight developers for the account's of five clients. A focus on organising the team's workflow, whilst simultaneously taking into consideration the needs of all five clients.</p>
-                </div>
-                <hr>
-                <div>
-                    <h4>Account Manager</h4>
-                    <h6>November 2011 - May 2013</h6>
-                    <p>In charge of creating a B2B support channel. Setting up tools, communication channels, reports and documentation.</p>
+                    <p>Promoted to solely take care of one of Mobenga's tier one client. Leading a team of 18 developers,
+                        located in Malmö, Sweden and in Kiev, Ukraine.</p>
+                    <p>Responsible for driving the project's Roadmap, creating Features and populating the Backlog. Working
+                        closely with the client, often on site at their offices in both London and Gibraltar.</p>
+                    <p>Bringing Features on Epic level to the development team, breaking them down all the way to User Stories
+                        in Refinements. Planning the Backlog accordingly.</p>
+                    <p>Delivering/releasing to Live Production at the end of each two week sprint, without shortcutting any
+                        steps of security/testing.</p>
+                    <p>Together we brought our mobile suite from 300.000 to 5.000.000 processed bets per month, over the course
+                        of 2,5 years.</p>
                 </div>
                 <div class="card-footer">
                     <p>
@@ -497,14 +530,53 @@
                     </p>
                 </div>
             </div>
-            <div class="card">
+            <div class="card work">
+                <a href="https://www.djakne.se/feed/1/" target="_blank" class="card-header">
+                    <h4>Mobenga</h4>
+                    <img src="graphics/mobenga.png" alt="Mobenga">
+                </a>
+                <div>
+                    <h5>Product Owner for five clients</h5>
+                    <h6>May 2013 - November 2013</h6>
+                    <p>Managing a team of eight developers for the account's of five clients. A focus on organising the team's
+                        workflow, whilst simultaneously taking into consideration the needs of all five clients.</p>
+                </div>
+                <div class="card-footer">
+                    <p>
+                        <i class="fa-solid fa-diagram-project" title="Project Management"></i>
+                        <i class="fa-brands fa-jira" title="JIRA"></i>
+                        <i class="fa-solid fa-arrows-spin" title="Scrum"></i>
+                    </p>
+                </div>
+            </div>
+            <div class="card work">
+                <a href="https://www.djakne.se/feed/1/" target="_blank" class="card-header">
+                    <h4>Mobenga</h4>
+                    <img src="graphics/mobenga.png" alt="Mobenga">
+                </a>
+                <div>
+                    <h5>Account Manager</h5>
+                    <h6>November 2011 - May 2013</h6>
+                    <p>In charge of creating a B2B support channel. Setting up tools, communication channels, reports and
+                        documentation.</p>
+                </div>
+                <div class="card-footer">
+                    <p>
+                        <i class="fa-solid fa-diagram-project" title="Project Management"></i>
+                        <i class="fa-brands fa-jira" title="JIRA"></i>
+                        <i class="fa-solid fa-arrows-spin" title="Scrum"></i>
+                    </p>
+                </div>
+            </div>
+            <div class="card work">
                 <a href="https://www.betsson.com" target="_blank" class="card-header">
                     <h4>Betsson</h4>
                     <img src="graphics/betsson.png" alt="Betsson">
                 </a>
                 <h5>Account Manager</h5>
                 <h6>July 2011 - October 2011</h6>
-                <p>Project Manager/Campaign Coordinator for all Betsafe branded campaigns. Involved in all steps of the campaigns, from creating concepts to post evaluation.</p>
+                <p>Project Manager/Campaign Coordinator for all Betsafe branded campaigns. Involved in all steps of the
+                    campaigns, from creating concepts to post evaluation.</p>
                 <div class="card-footer">
                     <p>
                         <i class="fa-solid fa-diagram-project" title="Project Management"></i>
@@ -513,14 +585,15 @@
                     </p>
                 </div>
             </div>
-            <div class="card">
+            <div class="card work">
                 <a href="https://www.betsson.com" target="_blank" class="card-header">
                     <h4>Betsafe</h4>
                     <img src="graphics/betsafe.png" alt="Betsafe">
                 </a>
                 <h5>Content Manager</h5>
                 <h6>June 2009 - July 2011</h6>
-                <p>Responsible for all content on the Betsafe website, including eight different languages and markets. Translations, front end editing and publishing across the site.</p>
+                <p>Responsible for all content on the Betsafe website, including eight different languages and markets.
+                    Translations, front end editing and publishing across the site.</p>
                 <div class="card-footer">
                     <p>
                         <i class="fa-brands fa-html5" title="HTML"></i>
@@ -529,7 +602,7 @@
                     </p>
                 </div>
             </div>
-            <div class="card">
+            <div class="card education">
                 <a href="https://mau.se" target="_blank" class="card-header">
                     <h4>Malmö University<span>Technology & Society</span></h4>
                     <img src="graphics/mau.png" alt="Malmö University">
@@ -545,7 +618,7 @@
                     </p>
                 </div>
             </div>
-            <div class="card">
+            <div class="card education">
                 <a href="https://qut.edu.au" target="_blank" class="card-header">
                     <h4>Queensland University of Technology</h4>
                     <img src="graphics/qut.png" alt="Queensland University of Technology">
@@ -561,7 +634,7 @@
                     </p>
                 </div>
             </div>
-            <div class="card">
+            <div class="card education">
                 <a href="https://mau.se" target="_blank" class="card-header">
                     <h4>Malmö University<span>K3</span></h4>
                     <img src="graphics/mau.png" alt="Malmö University">
@@ -570,7 +643,51 @@
                 <h6>January 2006 - June 2006</h6>
                 <p>Malmö, Sweden</p>
             </div>
+        </div>
         </section>
+
+<!-- 
+        <input type="checkbox" id="expand-toggle" />
+        <div class="expandable">why is this one not working?</div>
+        <table>
+            <thead class="expandable">
+                <tr class="expandable">
+                    <th>Column #1</th>
+                    <th>Column #2</th>
+                    <th>Column #3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="expandable">
+                    <td>[more text]</td>
+                    <td>[more text]</td>
+                    <td>[more text]</td>
+                </tr>
+                <tr>
+                    <td>[cell text]</td>
+                    <td>[cell text]</td>
+                    <td>[cell text]</td>
+                </tr>
+                <tr>
+                    <td>[cell text]</td>
+                    <td>[cell text]</td>
+                    <td>[cell text]</td>
+                </tr>
+                <tr class="expandable">
+                    <td>[more text]</td>
+                    <td>[more text]</td>
+                    <td>[more text]</td>
+                </tr>
+                <tr class="expandable">
+                    <td>[more text]</td>
+                    <td>[more text]</td>
+                    <td>[more text]</td>
+                </tr>
+            </tbody>
+        </table>
+        <label for="expand-toggle" id="expand-btn">Toggle hidden rows</label> -->
+
+
     </main>
     <footer>
         <div>Created, designed and developed by Albin.</div>
@@ -578,5 +695,11 @@
             <i class="fa-regular fa-copyright"></i> 2022 Albin. All rights reserved.
         </div>
     </footer>
+    <script>
+        const menuBtn = document.querySelector('#menu-button');
+        menuBtn.addEventListener('click', () => {
+            menuBtn.classList.toggle('menu-open');
+        });
+    </script>
 </body>
 </html>
