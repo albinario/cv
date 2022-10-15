@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Albin Lindeborgs CV">
+    <meta name="theme-color" content="#222">
     <title>Albin Lindeborg</title>
 
     <meta property="og:title" content="Albin Lindeborgs CV">
@@ -26,7 +27,7 @@
 </head>
 <body>
     <header id="top">
-        <nav>
+        <nav aria-label="main">
             <a href="#top"><h1><span>Hi, I'm</span>Albin Lindeborg</h1></a>
             <div class="menu-wrapper">
                 <button id="menu-button" aria-label="Hamburger"><i class="fa fa-bars fa-lg" aria-hidden="true"></i></button>
@@ -45,8 +46,8 @@
             <ul>
                 <li><span><i class="fa-solid fa-location-dot"></i> Malmö, Sweden</span></li>
                 <li><span><i class="fa-solid fa-power-off"></i> 3<sup>rd</sup> October, 1981</span></li>
-                <li class="email"><a href="mailto:albin.lindeborg@gmail.com?subject=Hi Albin 👋"><i class="fa-solid fa-envelope"></i> albin.lindeborg@gmail</a><i class="fa-solid fa-arrow-left"></i></li>
-                <li><a href="tel:+46739244208"><i class="fa-solid fa-phone"></i> +46739244208</a><i class="fa-solid fa-arrow-left"></i></li>
+                <li class="email"><a href="mailto:albin.lindeborg@gmail.com?subject=Hi Albin 👋" aria-label="Email me"><i class="fa-solid fa-envelope"></i> albin.lindeborg@gmail</a><i class="fa-solid fa-arrow-left"></i></li>
+                <li><a href="tel:+46739244208" aria-label="Call me"><i class="fa-solid fa-phone"></i> +46739244208</a><i class="fa-solid fa-arrow-left"></i></li>
                 <li><a href="https://www.linkedin.com/in/albinlindeborg/" target="_blank" aria-label="Linked in"><i class="fa-brands fa-linkedin"></i> albinlindeborg</a><i class="fa-solid fa-arrow-left"></i></li>
                 <li><a href="https://github.com/albinario" target="_blank" aria-label="Github"><i class="fa-brands fa-github"></i> albinario</a><i class="fa-solid fa-arrow-left"></i></li>
             </ul>
@@ -69,7 +70,7 @@
                 <ul>
                     <li>
                         <div>
-                            <img src="graphics/se.png" alt="Swedish flag">Swedish<!--language-->
+                            <img src="graphics/se.png" alt="Swedish flag">Swedish <span>(mother tongue)</span>
                         </div>
                         <span>
                             <i class="fa-solid fa-circle"></i>
@@ -86,7 +87,7 @@
                     </li>
                     <li>
                         <div>
-                            <img src="graphics/uk.png" alt="British flag">English<!--language-->
+                            <img src="graphics/uk.png" alt="British flag">English <span>(professional)</span>
                         </div>
                         <span>
                             <i class="fa-solid fa-circle"></i>
@@ -103,7 +104,7 @@
                     </li>
                     <li>
                         <div>
-                            <img src="graphics/es.png" alt="Spanish flag">Spanish<!--language-->
+                            <img src="graphics/es.png" alt="Spanish flag">Spanish <span>(parks in Barcelona)</span>
                         </div>
                         <span>
                             <i class="fa-solid fa-circle"></i>
@@ -363,16 +364,16 @@
             <div class="timeline-header">
                 <h3>Timeline</h3>
                 <div>
-                    <input id="work" type="checkbox" onClick="enableUpload('work')" checked>
+                    <input id="work" type="checkbox" aria-label="Toggle work. When checked all work experience will be visible." onClick="enableUpload('work')" checked>
                     <label for="work">Work</label>
                 </div>
                 <div>
-                    <input id="education" type="checkbox" onClick="enableUpload('education')" checked>
+                    <input id="education" type="checkbox" aria-label="Toggle education. When checked all education experience will be visible." onClick="enableUpload('education')" checked>
                     <label for="education">Education</label>
                 </div>
                 <div>
-                    <input id="project" type="checkbox" onClick="enableUpload('project')" checked>
-                    <label for="project">Project</label>
+                    <input id="project" type="checkbox" aria-label="Toggle own projects. When checked all own projects will be visible." onClick="enableUpload('project')" checked>
+                    <label for="project">Own project</label>
                 </div>                
             </div>
             <div class="timeline-content">
