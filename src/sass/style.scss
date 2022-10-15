@@ -245,13 +245,16 @@ main {
                 border-radius: .3em;
                 box-shadow: 1px 2px 10px 1px $theme-1;
                 overflow: hidden;
+
+                > span {
+                    position: absolute;
+                    margin: -1rem 0 0 -1.2em;
+                    font-size: .7em;
+                    color: $theme-1;
+                }
     
                 a {
                     color: #222;
-                }
-    
-                h4 {
-                    font-size: 1.3em;
                 }
     
                 .card-header {
@@ -259,6 +262,10 @@ main {
                     justify-content: space-between;
                     align-items: center;
                     height: 5vh;
+
+                    h4 {
+                        font-size: 1.3em;
+                    }
     
                     span {
                         display: block;
