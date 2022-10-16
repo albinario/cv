@@ -23,14 +23,17 @@ h2,
 h3,
 h4,
 h5,
-h6,
-button {
+h6 {
     font-family: $font-header;
 }
 
 a {
     text-decoration: none;
     color: $theme-1;
+}
+
+.hide {
+    display: none;
 }
 
 :target {
@@ -177,7 +180,8 @@ main {
         justify-content: center;
         padding: 1rem 0;
 
-        button {
+        .button {
+            font-family: $font-header;
             background-color: $theme-2;
             color: $theme-1;
             border: 1px solid $theme-1;
@@ -293,10 +297,6 @@ main {
                     }
                 }
             }
-
-            .hide {
-                display: none;
-            }
         }
     }
 }
@@ -318,7 +318,7 @@ footer {
 @media (min-width: 768px) {
     :target {
         scroll-margin-top: 6em;
-    } 
+    }
 
     header {
         nav {
