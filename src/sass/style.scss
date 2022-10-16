@@ -275,11 +275,16 @@ main {
                         font-size: .6em;
                     }
                 }
+
+                h6 {
+                    margin: -.5em 0;
+                }
     
                 .screenshots {
                     display: flex;
                     justify-content: space-around;
                     height: 10rem;
+                    margin-top: 1em;
                 }
     
                 .card-footer {
