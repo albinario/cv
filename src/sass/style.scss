@@ -309,6 +309,12 @@ footer {
     font-size: .8em;
 }
 
+@media (max-width: 767px) {
+    .hide-on-mobile {
+        display: none;
+    }
+}
+
 @media (min-width: 768px) {
     :target {
         scroll-margin-top: 6em;
