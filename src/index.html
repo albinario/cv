@@ -365,15 +365,15 @@
             <div class="timeline-header">
                 <h3>Timeline</h3>
                 <div>
-                    <input id="work" type="checkbox" aria-label="Toggle work. When checked all work experience will be visible." onClick="enableUpload('work')" checked>
+                    <input id="work" type="checkbox" aria-label="Toggle work. When checked all work experience will be visible." onClick="toggleType('work')" checked>
                     <label for="work">Work</label>
                 </div>
                 <div>
-                    <input id="education" type="checkbox" aria-label="Toggle education. When checked all education experience will be visible." onClick="enableUpload('education')" checked>
+                    <input id="education" type="checkbox" aria-label="Toggle education. When checked all education experience will be visible." onClick="toggleType('education')" checked>
                     <label for="education">Education</label>
                 </div>
                 <div>
-                    <input id="project" type="checkbox" aria-label="Toggle own projects. When checked all own projects will be visible." onClick="enableUpload('project')" checked>
+                    <input id="project" type="checkbox" aria-label="Toggle own projects. When checked all own projects will be visible." onClick="toggleType('project')" checked>
                     <label for="project">Own project</label>
                 </div>                
             </div>
@@ -698,7 +698,7 @@
             menuBtn.classList.toggle('menu-open');
         });
 
-        function enableUpload(type) {
+        function toggleType(type) {
             const checkBox = document.getElementById(type);
             const boxes = document.querySelectorAll('.'+type);
             if (checkBox.checked === true) {
