@@ -107,7 +107,6 @@ header {
                 display: flex;
                 justify-content: flex-end;
                 align-items: center;
-                // font-size: .7em;
                 @extend .link-before;
 
                 &:hover {
@@ -195,7 +194,7 @@ main {
             }
 
             &:active {
-                box-shadow: 0 0 0 0 red;
+                box-shadow: 0 0 0 0 rgb(255,0,0);
             }
         }
     }
